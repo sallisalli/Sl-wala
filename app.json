@@ -1,0 +1,18 @@
+{
+  "name": "SLAdultVideoDL",
+  "description": "18+ WhatsApp Bot",
+  "repository": "https://github.com/SandunMihiranga2004/SLAdultVideoDL",
+  "logo": "https://i.ibb.co/T1DqdYz/thumbnail.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "SLAdultVideoDL", "GURU-bot-md", "GURU-bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
